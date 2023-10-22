@@ -4,8 +4,6 @@
 SCHOOL OF COMPUTER SCIENCE
 COMP 8130
 Topics in Software Engineering
-Fall 2023
-Assignment-2
 This is an individual assignment. Cheating and plagiarism in any part of the
 assignment will result in zero for the whole assignment
 In this second assignment, you need to develop a classifier to predict the intention in
@@ -29,15 +27,7 @@ Labels: Consider the top-level categories
    
 Examples from the provided dataset
 
-inline-comment-id	# Comment	Question	Final Label
-84326dd1_566c7146	1	"is this what they intended? don't they really want $(TARGET_OUT_DATA_NATIVE_TEST)?
-"	request for confirmation
-84326dd1_566c7146	2	"is this what they intended? don't they really want $(TARGET_OUT_DATA_NATIVE_TEST)?
-"	surprise
-99d1f8e4_92b31cea	3	"Don't we need to increment 'i' in the else case here to avoid an infinite loop?
-"	suggestion
-193d089f_f5fac752	4	"i can't see anywhere where this is set to false. should we just adjust the single reference in bionic and then remove this?
-"	suggestion
+The dataset will be available with the repository as well
 
 Tasks: 
 1. Generate a model with words as the feature, with text preprocessing step
